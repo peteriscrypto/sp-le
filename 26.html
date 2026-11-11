@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mana spēle</title>
+<title>CoinHunter</title>
 <style>
 /* Pamata izkārtojums — šīs rindas nemaini */
 body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
@@ -43,17 +43,18 @@ button {
 </style>
 </head>
 <body>
-<h1>Spēles nosaukums</h1>
-<p>Īss spēles mērķa apraksts spēlētājam.</p>
+<h1>CoinHunter</h1>
+<p>Spēlētājs iegūst punktus, savācot monētas, un noklausās skaņu, kad veic darbību
 <section class="noteikumi">
   <h2>Noteikumi</h2>
-  <p>Apraksti, kā spēlētājs šajā lapā iegūst punktus un noklausās skaņu.</p>
-</section>
+  <p>Spiežot būltiņas uz tastūras spēlētājs kustās pa laukumu un vāc monētas. </p>
+  <p>Ieskrienot sienā spēle beidzas un spēlētājs redz savu rezūltātu cik ir savāktas monētas</p>
+</section>.
 <div class="laukums">
   <h2>Spēles laukums</h2>
-  <img src="atteli/varonis.svg" alt="Spēles varonis" width="128">
+  <img src="25-mape/varonis.png" alt="Spēles varonis" width="128">
   <p>Skaņas efekta nozīme spēlē:</p>
-  <audio controls src="skanas/klikskis.wav"></audio>
+  <audio controls src="25-mape/skanas/klikskis.wav"></audio>
   <p id="punkti">Punkti: 0</p>
   <button onclick="savakt()">Savākt punktu</button>
 </div>
